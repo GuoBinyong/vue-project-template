@@ -23,12 +23,12 @@ var app = new Vue({
 }).$mount('#app')
 
 
-// @ts-ignore
+
 defineListenablePropertyGetter(window.shareInst,"app",function () {
   return app
 });
 
-// @ts-ignore
+
 window.shareInst.app = app;
 
 // vue模块：结束
