@@ -23,5 +23,12 @@ module.exports = {
                 ':tools': resolve('src/frameworks/tools')
             }
         }
+    },
+
+    pluginOptions: {
+      'style-resources-loader': {
+        preProcessor: 'stylus',
+        patterns: [resolve ("./src/*/(env|profile).styl")]
+      }
     }
 }
