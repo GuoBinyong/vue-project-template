@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "theme-bus": "rm -rf src/business/theme && et -c src/business/element-variables.scss -o src/business/theme",
+    "theme-app": "rm -rf src/app/theme && et -c src/app/element-variables.scss -o src/app/theme"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -28,5 +30,9 @@
     "vue-cli-plugin-style-resources-loader": "^0.1.4",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.11"
+  },
+  "optionalDependencies": {
+    "element-theme": "^2.0.1",
+    "element-theme-chalk": "^2.13.0"
   }
 }

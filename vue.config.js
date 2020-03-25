@@ -28,7 +28,7 @@ module.exports = {
     pluginOptions: {
       'style-resources-loader': {
         preProcessor: 'stylus',
-        patterns: [resolve ("./src/*/(env|profile).styl")]
+        patterns: [resolve ("./src/business/theme.styl"),resolve ("./src/*/(env|profile).styl")]
       }
     }
 }
