@@ -7,7 +7,10 @@ module.exports = {
       "component",
       {
         "libraryName": "element-ui",
-        "styleLibraryName": "theme-chalk"
+        
+        // 主题路径
+        // "styleLibraryName": "theme-chalk"   //element-ui库中自带的默认主题
+        "styleLibraryName": "~src/business/theme"
       }
     ]
   ]
