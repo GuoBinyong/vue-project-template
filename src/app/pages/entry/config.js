@@ -3,7 +3,7 @@
 // import Home from './home/Home'
 import {homeStoreConfigs} from './home/config'
 
-import My from './my/My'
+import My from './my/My.vue'
 import {myStoreConfigs} from './my/config'
 
 
