@@ -13,7 +13,6 @@ import App from ':app/App.vue'
 
 
 var app = new Vue({
-  // @ts-ignore
   router,
   store,
   render: h => h(App),
@@ -23,12 +22,12 @@ var app = new Vue({
 }).$mount('#app')
 
 
-// @ts-ignore
+
 by.defineListenablePropertyGetter(window.shareInst,"app",function () {
   return app
 });
 
-// @ts-ignore
+
 window.shareInst.app = app;
 
 // vue模块：结束
