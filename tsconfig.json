@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": false,
+    "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
@@ -14,9 +14,17 @@
       "webpack-env"
     ],
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      ":src/*":["src/*"],
+      ":frameworks/*": ["src/frameworks/*"],
+      ":business/*": ["src/business/*"],
+      ":app/*": ["src/app/*"],
+      ":assets/*": ["src/app/assets/*"],
+
+      ":components/*": ["src/frameworks/components/*"],
+      ":compatible/*": ["src/business/compatible/*"],
+      ":network/*": ["src/app/network/*"],
+      ":libraries/*": ["src/frameworks/libraries/*"],
+      ":tools/*": ["src/frameworks/tools/*"]
     },
     "lib": [
       "esnext",

@@ -24,7 +24,7 @@ module.exports = {
             }
         }
     },
-
+    transpileDependencies:["com-tools","by-http","done-count","by-browser"],
     pluginOptions: {
       'style-resources-loader': {
         preProcessor: 'stylus',
