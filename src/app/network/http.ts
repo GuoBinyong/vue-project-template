@@ -21,6 +21,15 @@ const httpConfig:HttpConfig = {
 };
 
 
+
+
 by.defineListenablePropertyGetter(window.shareInst,"http",function () {
   return new ByHttp(httpConfig);
 });
+
+declare global {
+  interface ShareInst {
+    http:ByHttp;
+    httpReady:Promise<ByHttp>;
+  }
+}

@@ -9,6 +9,16 @@ Vue.use(Router)
 
 
 
+declare global {
+
+  interface ShareInst {
+    router:Router;
+    routerReady:Promise<Router>;
+  }
+
+}
+
+
 
 const router = new Router({
   routes: appChildRoutes
