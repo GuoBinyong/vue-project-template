@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-import Vuex from 'vuex';
+import Vuex ,{Store}from 'vuex';
 
 
 import {appStoreConfigs} from './app/config';
@@ -10,6 +10,15 @@ import "vuex-expand"
 Vue.use(Vuex);
 
 
+
+declare global {
+
+  interface ShareInst {
+    store:Store<typeof storeOptions>;
+    storeReady:Promise<Store<typeof storeOptions>>;
+  }
+
+}
 
 
 
@@ -22,6 +31,9 @@ by.defineListenablePropertyGetter(window.shareInst,"store",function () {
   return store
 });
 window.shareInst.store = store;
+
+
+
 
 /*
 
