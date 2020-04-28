@@ -11,6 +11,14 @@ Vue.use(Vuex);
 
 
 
+
+
+let localStorageState = localStorage.getParsedItem('StoreState');
+let storeOptions = Vuex.Store.mergeStoreConfigsWhitInitState(appStoreConfigs, localStorageState);
+
+const store = new Vuex.Store(storeOptions);
+
+
 declare global {
 
   interface ShareInst {
@@ -20,15 +28,8 @@ declare global {
 
 }
 
-
-
-
-let localStorageState = localStorage.getParsedItem('StoreState');
-let storeOptions = Vuex.Store.mergeStoreConfigsWhitInitState(appStoreConfigs, localStorageState);
-
-const store = new Vuex.Store(storeOptions);
-by.defineListenablePropertyGetter(window.shareInst,"store",function () {
-  return store
+by.defineListenableProperty(window.shareInst,"store",{
+  getDefault:function () {return store}
 });
 window.shareInst.store = store;
 
