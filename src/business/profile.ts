@@ -16,7 +16,3 @@ interface ShareData {
 
 window.shareData = configObj;
 
-
-
-by.defineListenableProperties(window.shareInst,["http","router","store","app"]);
-

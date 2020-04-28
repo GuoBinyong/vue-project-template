@@ -10,12 +10,7 @@ import router from './router'
 import store from './store'
 import App from ':app/App.vue'
 
-declare global {
-  interface shareInst {
-    app:Vue;
-    appReady:Promise<Vue>;
-  }
-}
+
 
 
 var app = new Vue({
@@ -28,9 +23,15 @@ var app = new Vue({
 }).$mount('#app')
 
 
+declare global {
+  interface shareInst {
+    app:Vue;
+    appReady:Promise<Vue>;
+  }
+}
 
-by.defineListenablePropertyGetter(window.shareInst,"app",function () {
-  return app
+by.defineListenableProperty(window.shareInst,"app",{
+  getDefault:function () {return app}
 });
 
 

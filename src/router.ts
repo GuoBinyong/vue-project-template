@@ -9,6 +9,14 @@ Vue.use(Router)
 
 
 
+
+
+const router = new Router({
+  routes: appChildRoutes
+});
+
+
+
 declare global {
 
   interface ShareInst {
@@ -18,15 +26,10 @@ declare global {
 
 }
 
-
-
-const router = new Router({
-  routes: appChildRoutes
+by.defineListenableProperty(window.shareInst,"router",{
+  getDefault:function () {return router}
 });
 
-by.defineListenablePropertyGetter(window.shareInst,"router",function () {
-  return router
-});
 window.shareInst.router = router;
 
 
