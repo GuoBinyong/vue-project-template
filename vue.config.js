@@ -10,17 +10,17 @@ module.exports = {
             extensions: ['.ts','.js', '.vue', '.json'],
             alias: {
                 ':src': resolve('src'),
-                ':frameworks': resolve('src/frameworks'),
-                ':business': resolve('src/business'),
+                ':frame': resolve('src/frame'),
+                ':busine': resolve('src/busine'),
                 ':app': resolve('src/app'),
                 ':assets': resolve('src/app/assets'),
 
                 // fixme:有待更改
-                ':components': resolve('src/frameworks/components'),
-                ':compatible': resolve('src/business/compatible'),
+                ':components': resolve('src/frame/components'),
+                ':compatible': resolve('src/busine/compatible'),
                 ':network': resolve('src/app/network'),
-                ':libraries': resolve('src/frameworks/libraries'),
-                ':tools': resolve('src/frameworks/tools')
+                ':libraries': resolve('src/frame/libraries'),
+                ':tools': resolve('src/frame/tools')
             }
         }
     },

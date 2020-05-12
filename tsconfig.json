@@ -15,16 +15,16 @@
     ],
     "paths": {
       ":src/*":["src/*"],
-      ":frameworks/*": ["src/frameworks/*"],
-      ":business/*": ["src/business/*"],
+      ":frame/*": ["src/frame/*"],
+      ":busine/*": ["src/busine/*"],
       ":app/*": ["src/app/*"],
       ":assets/*": ["src/app/assets/*"],
 
-      ":components/*": ["src/frameworks/components/*"],
-      ":compatible/*": ["src/business/compatible/*"],
+      ":components/*": ["src/frame/components/*"],
+      ":compatible/*": ["src/busine/compatible/*"],
       ":network/*": ["src/app/network/*"],
-      ":libraries/*": ["src/frameworks/libraries/*"],
-      ":tools/*": ["src/frameworks/tools/*"]
+      ":libraries/*": ["src/frame/libraries/*"],
+      ":tools/*": ["src/frame/tools/*"]
     },
     "lib": [
       "esnext",
