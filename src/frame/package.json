@@ -1,0 +1,18 @@
+{
+  "name": "frame",
+  "version": "1.0.0",
+  "description": "frame 是项目的框架部分，包含了框架的代码和依赖及框架的配置",
+  "main": "index",
+  "module": "index",
+  "browser": "index",
+  "types": "index",
+  "sideEffects": true,
+  "author": "郭斌勇",
+  "license": "ISC",
+  "dependencies": {
+    "by-browser": "^1.0.7",
+    "by-http": "^1.0.5",
+    "vue-exp": "^1.0.3",
+    "vuex-expand": "^1.0.1"
+  }
+}
