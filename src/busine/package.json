@@ -4,7 +4,6 @@
   "description": "busine 是多个项目的公共业务部分",
   "main": "index",
   "module": "index",
-  "browser": "index",
   "types": "index",
   "sideEffects": true,
   "author": "郭斌勇",
