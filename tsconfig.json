@@ -18,13 +18,10 @@
       ":frame/*": ["src/frame/*"],
       ":busine/*": ["src/busine/*"],
       ":app/*": ["src/app/*"],
+      ":views/*": ["src/app/views/*"],
       ":assets/*": ["src/app/assets/*"],
-
-      ":components/*": ["src/frame/components/*"],
-      ":compatible/*": ["src/busine/compatible/*"],
-      ":network/*": ["src/app/network/*"],
-      ":libraries/*": ["src/frame/libraries/*"],
-      ":tools/*": ["src/frame/tools/*"]
+      ":components/*": ["src/app/components/*"],
+      ":network/*": ["src/app/network/*"]
     },
     "lib": [
       "esnext",

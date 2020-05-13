@@ -1,15 +1,8 @@
 import Vue from 'vue';
-
 import Vuex ,{Store}from 'vuex';
-
-
 import {appStoreConfigs} from './app/config';
 
-import "vuex-expand"
-
 Vue.use(Vuex);
-
-
 
 
 

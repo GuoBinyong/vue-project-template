@@ -1,11 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
+
 import {appChildRoutes} from ':app/config'
 
-
-
-
-Vue.use(Router)
 
 
 

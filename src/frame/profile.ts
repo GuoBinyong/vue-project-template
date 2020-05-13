@@ -1,13 +1,15 @@
 import * as By from "by-browser"
 
 import "vue-exp"
-// import Vue from "vue"
+import Vue from 'vue'
 
 
-// import  "vuex-expand"
+import  "vuex-expand"
 
-// import {ByHttp} from "by-http"
-// import VueRouterExtendPlugin from "./libraries/VueRouterExtendPlugin"
+
+import VueRouterExtendPlugin from "vue-router-extend"
+import VueRouter from 'vue-router'
+Vue.use(VueRouterExtendPlugin,{VueRouter: VueRouter});
 
 
 

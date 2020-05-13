@@ -1,4 +1,4 @@
-// import {pagesChildRoutes, pagesStoreConfigs} from './pages/config'
+// import {pagesChildRoutes, pagesStoreConfigs} from './views/config'
 
 
 

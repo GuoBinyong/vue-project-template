@@ -13,14 +13,10 @@ module.exports = {
                 ':frame': resolve('src/frame'),
                 ':busine': resolve('src/busine'),
                 ':app': resolve('src/app'),
-                ':assets': resolve('src/app/assets'),
-
-                // fixme:有待更改
-                ':components': resolve('src/frame/components'),
-                ':compatible': resolve('src/busine/compatible'),
+                ':views': resolve('src/app/views'),
                 ':network': resolve('src/app/network'),
-                ':libraries': resolve('src/frame/libraries'),
-                ':tools': resolve('src/frame/tools')
+                ':components': resolve('src/app/components'),
+                ':assets': resolve('src/app/assets')
             }
         }
     },

@@ -4,7 +4,6 @@
   "description": "frame 是项目的框架部分，包含了框架的代码和依赖及框架的配置",
   "main": "index",
   "module": "index",
-  "browser": "index",
   "types": "index",
   "sideEffects": true,
   "author": "郭斌勇",
@@ -12,8 +11,8 @@
   "dependencies": {
     "by-browser": "^1.0.9",
     "by-http": "^1.0.7",
-    "vue-exp": "^1.0.5",
-    "vue-router-extend": "^1.0.1",
+    "vue-exp": "^1.0.6",
+    "vue-router-extend": "^1.0.3",
     "vuex-expand": "^1.0.2"
   }
 }
