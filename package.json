@@ -9,16 +9,12 @@
     "theme-app": "rm -rf src/app/theme && et -c src/app/element-variables.scss -o src/app/theme"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "by-browser": "^1.0.7",
-    "by-http": "^1.0.5",
+    "busine": "file:src/busine",
     "core-js": "^3.6.4",
-    "element-ui": "^2.4.5",
+    "frame": "file:src/frame",
     "vue": "^2.6.11",
-    "vue-exp": "^1.0.3",
     "vue-router": "^3.1.5",
-    "vuex": "^3.1.2",
-    "vuex-expand": "^1.0.1"
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",

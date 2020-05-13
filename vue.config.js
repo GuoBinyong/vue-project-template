@@ -10,21 +10,17 @@ module.exports = {
             extensions: ['.ts','.js', '.vue', '.json'],
             alias: {
                 ':src': resolve('src'),
-                ':frameworks': resolve('src/frameworks'),
-                ':business': resolve('src/business'),
+                ':frame': resolve('src/frame'),
+                ':busine': resolve('src/busine'),
                 ':app': resolve('src/app'),
-                ':assets': resolve('src/app/assets'),
-
-                // fixme:有待更改
-                ':components': resolve('src/frameworks/components'),
-                ':compatible': resolve('src/business/compatible'),
+                ':views': resolve('src/app/views'),
                 ':network': resolve('src/app/network'),
-                ':libraries': resolve('src/frameworks/libraries'),
-                ':tools': resolve('src/frameworks/tools')
+                ':components': resolve('src/app/components'),
+                ':assets': resolve('src/app/assets')
             }
         }
     },
-    transpileDependencies:["com-tools","by-http","done-count","by-browser"],
+    // transpileDependencies:["com-tools","by-http","done-count","by-browser"],
     pluginOptions: {
       'style-resources-loader': {
         preProcessor: 'stylus',
