@@ -9,6 +9,7 @@
   "author": "郭斌勇",
   "license": "ISC",
   "dependencies": {
+    "@gby/client": "^1.0.1",
     "by-browser": "^1.0.9",
     "by-http": "^1.0.7",
     "nav-type": "^1.0.1",
