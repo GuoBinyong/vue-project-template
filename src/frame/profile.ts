@@ -1,5 +1,5 @@
 import * as By from "by-browser"
-
+import "nav-type"
 import "vue-exp"
 import Vue from 'vue'
 

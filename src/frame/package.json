@@ -11,6 +11,7 @@
   "dependencies": {
     "by-browser": "^1.0.9",
     "by-http": "^1.0.7",
+    "nav-type": "^1.0.1",
     "vue-exp": "^1.0.6",
     "vue-router-extend": "^1.0.3",
     "vuex-expand": "^1.0.2"
