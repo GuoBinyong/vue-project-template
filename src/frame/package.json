@@ -16,7 +16,9 @@
     "vue-exp": "^1.0.6",
     "vue-router-extend": "^1.0.3",
     "vuex-expand": "^1.0.2",
-    "vue-tls": "^1.0.2",
+    "listen-vue-switch": "^1.0.1",
+    "vnode-tls": "^1.0.0",
+    "vue-nav-stack": "^1.0.0",
     "back-scheme": "^1.0.0",
     "element-display-switch": "^1.0.0",
     "url-param-nav": "^1.0.0"
