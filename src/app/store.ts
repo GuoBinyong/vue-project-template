@@ -1,20 +1,14 @@
 import Vue from 'vue';
-
 import Vuex ,{Store}from 'vuex';
-
-
-import {appStoreConfigs} from './app/config';
-
-import "vuex-expand"
+import {viewsStoreConfigs} from './views/config';
+import {routeDataStoreConfig} from './router';
 
 Vue.use(Vuex);
 
 
 
-
-
 let localStorageState = localStorage.getParsedItem('StoreState');
-let storeOptions = Vuex.Store.mergeStoreConfigsWhitInitState(appStoreConfigs, localStorageState);
+let storeOptions = Vuex.Store.mergeStoreConfigsWhitInitState([...viewsStoreConfigs,...routeDataStoreConfig], localStorageState);
 
 const store = new Vuex.Store(storeOptions);
 

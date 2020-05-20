@@ -1,40 +1,6 @@
-import './beforeLaunch';
-
-// vue模块：开始
-import Vue from 'vue'
-
-
-Vue.config.productionTip = false
-
-import router from './router'
-import store from './store'
-import App from ':app/App.vue'
-
-
-
-
-var app = new Vue({
-  router,
-  store,
-  render: h => h(App),
-  beforeDestroy: function () {
-    store.saveState();
-  }
-}).$mount('#app')
-
-
-declare global {
-  interface shareInst {
-    app:Vue;
-    appReady:Promise<Vue>;
-  }
-}
-
-by.defineListenableProperty(window.shareInst,"app",{
-  getDefault:function () {return app}
-});
-
-
-window.shareInst.app = app;
-
-// vue模块：结束
+//文件初始化：开始
+// import "babel-polyfill";    //垫片，必须首先被加载，能解决较新的JS语言API的兼容问题
+// import './debug'
+import ':frame'
+import ':busine'
+import ':app'

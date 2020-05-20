@@ -1,4 +1,3 @@
-// import ':compatible/index';
 import ':network/http'
 import * as Api from ':network/Api'
 
@@ -6,7 +5,6 @@ import * as Api from ':network/Api'
 window.shareInst.Api = Api ;
 
 
-//文件初始化：结束
 
 
 // FastClick : 开始
