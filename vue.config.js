@@ -11,7 +11,7 @@ module.exports = {
             alias: {
                 ':src': resolve('src'),
                 ':frame': resolve('src/frame'),
-                ':busine': resolve('src/busine'),
+                ':common': resolve('src/common'),
                 ':app': resolve('src/app'),
                 ':views': resolve('src/app/views'),
                 ':network': resolve('src/app/network'),

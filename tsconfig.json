@@ -16,7 +16,7 @@
     "paths": {
       ":src/*":["src/*"],
       ":frame/*": ["src/frame/*"],
-      ":busine/*": ["src/busine/*"],
+      ":common/*": ["src/common/*"],
       ":app/*": ["src/app/*"],
       ":views/*": ["src/app/views/*"],
       ":assets/*": ["src/app/assets/*"],
