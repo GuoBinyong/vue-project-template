@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 
-import {appChildRoutes} from ':app/config'
+import {viewsChildRoutes} from './views/config'
 
 
 
@@ -10,7 +10,7 @@ import {appChildRoutes} from ':app/config'
 
 
 const router = new Router({
-  routes: appChildRoutes
+  routes: viewsChildRoutes
 });
 
 
@@ -48,11 +48,40 @@ window.shareInst.router = router;
 ] ;*/
 
 
-//设置路由的通过 store 存取路由数据的相关配置
-/*router.setRouteDataMutation = "setRouteData";
+//设置路由的通过 store 存取路由数据的相关配置：开始
+router.setRouteDataMutation = "setRouteData";
 router.getRouteDataFromStore = function (store, dataKey) {
   return store.state.route.data[dataKey];
-};*/
+};
+
+// 路由数据存储配置：开始
+const routeDataStore = {
+  state: {
+    data: {},
+    lastDataKey: null
+  },
+  mutations: {
+    setRouteData: function (state:any, keyAndData:any) {
+      let {key, data} = keyAndData;
+      state.data[key] = data;
+      state.lastDataKey = key;
+    }
+  }
+
+};
+
+export let routeDataStoreConfig = [{
+    modules: {
+      route: routeDataStore
+    }
+}];
+
+// 路由数据存储配置：结束
+
+//设置路由的通过 store 存取路由数据的相关配置：结束
+
+
+
 
 
 /**
