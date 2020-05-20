@@ -1,7 +1,7 @@
 {
-  "name": "busine",
+  "name": "common",
   "version": "1.0.0",
-  "description": "busine 是多个项目的公共业务部分",
+  "description": "common 是多个项目的公共业务部分",
   "main": "index",
   "module": "index",
   "types": "index",

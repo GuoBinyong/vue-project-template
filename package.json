@@ -7,7 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "busine": "file:src/busine",
+    "common": "file:src/common",
     "core-js": "^3.6.4",
     "frame": "file:src/frame",
     "vue": "^2.6.11",
