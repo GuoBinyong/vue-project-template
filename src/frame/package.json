@@ -9,18 +9,18 @@
   "author": "郭斌勇",
   "license": "ISC",
   "dependencies": {
-    "@gby/client": "^1.0.1",
-    "by-browser": "^1.0.9",
-    "by-http": "^1.0.7",
-    "nav-type": "^1.0.1",
-    "vue-exp": "^1.0.6",
-    "vue-router-extend": "^1.0.3",
-    "vuex-expand": "^1.0.2",
-    "listen-vue-switch": "^1.0.1",
-    "vnode-tls": "^1.0.0",
-    "vue-nav-stack": "^1.0.0",
-    "back-scheme": "^1.0.0",
-    "element-display-switch": "^1.0.0",
-    "url-param-nav": "^1.0.0"
+    "@gby/client": "^1.0.3",
+    "by-browser": "^1.0.10",
+    "by-http": "^1.0.8",
+    "nav-type": "^1.0.2",
+    "vue-exp": "^1.0.7",
+    "vue-router-extend": "^1.0.6",
+    "vuex-expand": "^1.0.3",
+    "listen-vue-switch": "^1.0.3",
+    "vnode-tls": "^1.0.2",
+    "vue-nav-stack": "^1.0.2",
+    "back-scheme": "^1.0.1",
+    "element-display-switch": "^1.0.1",
+    "url-param-nav": "^1.0.1"
   }
 }
