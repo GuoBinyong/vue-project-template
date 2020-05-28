@@ -22,8 +22,8 @@ const pubConf:HttpConfig = {
 by.defineListenableProperty(window.shareInst,"http",{
   getDefault:function(){
     return new ByHttp({
-      baseURL: "/api",
-      ...pubConf
+      ...pubConf,
+      baseURL: "/api"
     });
   }
 });
@@ -34,8 +34,8 @@ by.defineListenableProperty(window.shareInst,"http",{
 by.defineListenableProperty(window.shareInst,"http2",{
   getDefault:function(){
     return new ByHttp({
-      baseURL: "/api2",
-      ...pubConf
+      ...pubConf,
+      baseURL: "/api2"
     });
   }
 });
