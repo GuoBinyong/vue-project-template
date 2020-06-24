@@ -7,10 +7,10 @@
   "types": "index",
   "sideEffects": true,
   "author": "郭斌勇",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@gby/client": "^1.0.3",
-    "by-browser": "^1.0.10",
+    "by-browser": "^2.3.0",
     "by-http": "^1.0.8",
     "nav-type": "^1.0.2",
     "vue-exp": "^1.0.7",
