@@ -18,7 +18,7 @@
     "@gby/client": "^1.0.3",
     "by-browser": "^2.3.0",
     "by-http": "^1.0.8",
-    "nav-type": "^1.0.2",
+    "nav-type": "^1.0.4",
     "vue-exp": "^1.0.7",
     "vue-router-extend": "^1.0.6",
     "vuex-expand": "^1.0.3",
