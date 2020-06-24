@@ -10,9 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "@gby/client": "^1.0.3",
-    "by-browser": "^2.3.0",
+    "by-browser": "^3.0.0",
     "by-http": "^1.0.8",
-    "nav-type": "^1.0.2",
+    "nav-type": "^1.0.4",
     "vue-exp": "^1.0.7",
     "vue-router-extend": "^1.0.6",
     "vuex-expand": "^1.0.3",
@@ -21,6 +21,6 @@
     "vue-nav-stack": "^1.0.2",
     "back-scheme": "^1.0.1",
     "element-display-switch": "^1.0.1",
-    "url-param-nav": "^1.0.1"
+    "url-param-nav": "^1.0.3"
   }
 }
