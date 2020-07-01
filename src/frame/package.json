@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "@gby/client": "^1.0.3",
-    "by-browser": "^3.0.0",
+    "by-browser": "^3.1.0",
     "by-http": "^1.0.8",
     "nav-type": "^1.0.4",
     "vue-exp": "^1.0.7",
