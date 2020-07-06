@@ -20,11 +20,5 @@ module.exports = {
             }
         }
     },
-    transpileDependencies:["com-tools","by-http","done-count","by-browser"],
-    pluginOptions: {
-      'style-resources-loader': {
-        preProcessor: 'stylus',
-        patterns: [resolve ("./src/*/(env|profile).styl")]
-      }
-    }
+    // transpileDependencies:["com-tools","by-http","done-count","by-browser"],
 }

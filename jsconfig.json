@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      ":src/*":["src/*"],
+      ":frame/*": ["src/frame/*"],
+      ":common/*": ["src/common/*"],
+      ":app/*": ["src/app/*"],
+      ":views/*": ["src/app/views/*"],
+      ":assets/*": ["src/app/assets/*"],
+      ":components/*": ["src/app/components/*"],
+      ":network/*": ["src/app/network/*"]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
