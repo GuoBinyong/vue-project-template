@@ -2,6 +2,7 @@
   "name": "vue-project-template",
   "version": "0.1.0",
   "private": true,
+  "workspaces":["src/*"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -14,21 +15,7 @@
     "vue-property-decorator": "^8.4.2",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0",
-    "vant": "^2.9.0",
-    
-    "@gby/client": "^1.0.3",
-    "by-browser": "^3.1.0",
-    "by-http": "^1.0.8",
-    "nav-type": "^1.0.4",
-    "vue-exp": "^1.0.7",
-    "vue-router-extend": "^1.0.6",
-    "vuex-expand": "^1.0.3",
-    "listen-vue-switch": "^1.0.3",
-    "vnode-tls": "^1.0.2",
-    "vue-nav-stack": "^1.0.2",
-    "back-scheme": "^1.0.1",
-    "element-display-switch": "^1.0.1",
-    "url-param-nav": "^1.0.3"
+    "vant": "^2.9.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
